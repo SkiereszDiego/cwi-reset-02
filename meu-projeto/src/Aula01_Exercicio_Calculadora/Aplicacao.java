@@ -1,13 +1,17 @@
 package Aula01_Exercicio_Calculadora;
 
-import oo.Calculadora;
-
 public class Aplicacao {
-    Aula01_Exercicio_Calculadora.Calculadora calculadora = new Calculadora();
-    int resultadoSoma1 = calculadora.soma(1, 2);
-    int resultadoSoma2 = calculadora.subtrai(4, 3);
-    int resultadoSoma3 = calculadora.soma(5, 2);
-        System.out.println(resultadoSoma1);
-        System.out.println(resultadoSoma2);
-        System.out.println(resultadoSoma3);
+
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+        int resultadoSomar = calculadora.somar(1, 2);
+        int resultadoSubtrair = calculadora.subtrair(4, 3);
+        int resultadoMultiplicar = calculadora.multiplicar(5, 2);
+        int resultadoDividir = calculadora.dividir(6, 2);
+
+            System.out.println(resultadoSomar);
+            System.out.println(resultadoSubtrair);
+            System.out.println(resultadoMultiplicar);
+            System.out.println(resultadoDividir);
+    }
 }
