@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfe88e7a-229e-4f5e-9f03-b81f84cf45dd" name="Default Changelist" comment="" />
+    <list default="true" id="47480b88-a5e8-4d18-b516-cfe4a60ab680" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/meu-projeto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/Aula01_Exercicio_Calculadora/Aplicacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/Aula01_Exercicio_Calculadora/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/Aula01_Exercicio_Comparador/Aplicacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/Aula01_Exercicio_Comparador/Comparador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/Aula01_Exercicio_Gerenciador_de_Notas/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/Aula01_Exercicio_Gerenciador_de_Notas/Aplicacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/oo/Aplicacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/oo/Calculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/out/production/meu-projeto/oo/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/Aula01_Exercicio_Calculadora/Aplicacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/Aula01_Exercicio_Calculadora/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/Aula01_Exercicio_Comparador/Aplicacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/Aula01_Exercicio_Comparador/Comparador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/Aula01_Exercicio_Gerenciador_de_Notas/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/Aula01_Exercicio_Gerenciador_de_Notas/Aplicacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/oo/Aplicacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/oo/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula_1/meu-projeto/src/oo/Carro.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1o72NrDrM7o2TzuGenJmrOZXB9D" />
+  <component name="ProjectId" id="1oGsyih6mlgIaq9quKERTDTgoDf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,41 +46,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="cwi-reset-02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aula_1" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dfe88e7a-229e-4f5e-9f03-b81f84cf45dd" name="Default Changelist" comment="" />
-      <created>1612623274621</created>
+      <changelist id="47480b88-a5e8-4d18-b516-cfe4a60ab680" name="Default Changelist" comment="" />
+      <created>1612924524633</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1612623274621</updated>
+      <updated>1612924524633</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
