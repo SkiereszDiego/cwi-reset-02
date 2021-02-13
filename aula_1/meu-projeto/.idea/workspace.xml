@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7877d44-f968-41d8-b1df-d67d6f3b57a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/meu-projeto/Aula01_Exercicio_Calculadora/Aplicacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meu-projeto/Aula01_Exercicio_Calculadora/Aplicacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/meu-projeto/Aula01_Exercicio_Calculadora/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meu-projeto/Aula01_Exercicio_Calculadora/Calculadora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/meu-projeto/Aula01_Exercicio_Gerenciador_de_Notas/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/meu-projeto/Aula01_Exercicio_Gerenciador_de_Notas/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/meu-projeto/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/meu-projeto/oo/Aplicacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/meu-projeto/oo/Calculadora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/meu-projeto/oo/Carro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01_Exercicio_Calculadora/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01_Exercicio_Calculadora/Aplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula_2/exercicios-aula-2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula_2/exercicios-aula-2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula_2/exercicios-aula-2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula_2/exercicios-aula-2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula_2/exercicios-aula-2/exercicios-aula-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../aula_2/exercicios-aula-2/src/exercicio/um/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aula01_Exercicio_Calculadora/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01_Exercicio_Calculadora/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01_Exercicio_Gerenciador_de_Notas/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01_Exercicio_Gerenciador_de_Notas/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oo/Aplicacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oo/Calculadora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oo/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01_Exercicio_Comparador/Comparador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01_Exercicio_Comparador/Comparador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="Application.Aplicacao (2)">
     <configuration name="Aplicacao (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -115,5 +107,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
