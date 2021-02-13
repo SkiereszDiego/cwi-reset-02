@@ -12,11 +12,8 @@ public class Diretor {
         this.idade = idade;
         this.filmesDirigidos = filmesDirigidos;
     }
-    Diretor(String nome) {
-        this.nome = nome;
-    }
 
-    public String getDiretor() {
-        return nome;
+    public String getNome() {
+        return this.nome;
     }
 }
