@@ -1,25 +1,19 @@
 package exercicio.um;
 
-public class Diretor {
-
+public class Ator {
     private String nome;
     private Integer idade;
-    private Integer filmesDirigidos;
+    private Integer numeroOscars;
     private Genero genero;
 
-
-    public Diretor(String nome, Integer idade, Integer filmesDirigidos, Genero genero) {
+    public Ator(String nome, Integer idade, Integer numeroOscars, Genero genero) {
         this.nome = nome;
         this.idade = idade;
-        this.filmesDirigidos = filmesDirigidos;
+        this.numeroOscars = numeroOscars;
         this.genero = genero;
     }
 
-    public String getNome() {
-        return this.nome;
-    }
-
-    public void diretor() {
+    public void imprimeAtor() {
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
         System.out.println("Genero: " + this.genero.getDescricao());

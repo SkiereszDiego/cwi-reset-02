@@ -3,8 +3,8 @@ package exercicio.um;
 public class App {
     public static void main(String[] args) {
         //new chama um construtor de uma classe
-        Diretor diretor1 = new Diretor("Lana Wachowski", 30, 20);
-        Diretor diretor2 = new Diretor("Stanley Kubrick", 50, 50);
+        Diretor diretor1 = new Diretor("Lana Wachowski", 30, 20, Genero.FEMININO);
+        Diretor diretor2 = new Diretor("Stanley Kubrick", 50, 50, Genero.MASCULINO);
         Filme matrix = new Filme("Matrix","Thomas Anderson," +
                 " a computer programmer, is led to fight an underground war" +
                 " against powerful computers who have constructed his entire" +
@@ -19,6 +19,10 @@ public class App {
 
         matrix.reproduzir();
         matrix4.reproduzir();
+
+        Ator pessoa1 = new Ator("Keanu Reaves", 56,2, Genero.MASCULINO);
+
+        pessoa1.imprimeAtor();
 
 
     }
