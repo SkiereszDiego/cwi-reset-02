@@ -19,7 +19,7 @@ public class Diretor {
         return this.nome;
     }
 
-    public void diretor() {
+    public void imprimirDiretor() {
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
         System.out.println("Genero: " + this.genero.getDescricao());

@@ -23,6 +23,7 @@ public class App {
         Ator pessoa1 = new Ator("Keanu Reaves", 56,2, Genero.MASCULINO);
 
         pessoa1.imprimeAtor();
+        diretor1.imprimirDiretor();
 
 
     }

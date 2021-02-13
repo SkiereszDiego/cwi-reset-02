@@ -22,7 +22,7 @@ public class Filme {
     }
 
     public void reproduzir() {
-        System.out.println("Filme: " + this.nome + "Duração: " + this.duracao);
+        System.out.println("Filme: " + this.nome + " Duração: " + this.duracao + " minutos.");
         System.out.println("Nome do Diretor: " + this.diretor.getNome());
         System.out.println("Descrição: " + this.descricao);
     }
