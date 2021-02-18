@@ -1,4 +1,4 @@
-public class Imovel {
+public abstract class Imovel {
     private Endereco endereco;
     private double valor;
 
