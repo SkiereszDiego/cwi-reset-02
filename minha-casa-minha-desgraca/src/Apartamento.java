@@ -9,7 +9,7 @@ public class Apartamento extends Imovel{
 
     @Override
     public String apresentacao() {
-        return "Imóvel do tipo apartameto no "+this.andar+" andar, localizado no endereço: "+
-                " \nValor: "+this.getValor();
+        return ("Imóvel do tipo APARTAMENTO no "+this.andar+" andar, localizado no endereço: "+
+                this.getEndereco().enderecoCompleto()+" \nValor: "+this.getValor());
     }
 }
