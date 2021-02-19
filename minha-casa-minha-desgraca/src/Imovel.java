@@ -6,15 +6,7 @@ public abstract class Imovel {
         this.endereco = endereco;
         this.valor = valor;
     }
-    public String apresentacao(){
-
-        return ("Localizado(a) no endereço: "+endereco.getLogradouro()+", Nº: "
-                +endereco.getNumero()+", Compl.: "
-                +endereco.getComplemento()+", Bairro: "
-                +endereco.getBairro()+", Cidade: "
-                +endereco.getCidade()+", UF: "
-                +endereco.getEstado().getDescricao()+".\nValor: R$ " +getValor() +".");
-    }
+    public abstract String apresentacao();
 
     public Endereco getEndereco() {
         return endereco;

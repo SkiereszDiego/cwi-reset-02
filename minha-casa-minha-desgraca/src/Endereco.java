@@ -16,25 +16,9 @@ public class Endereco {
         this.cidade = cidade;
         this.estado = estado;
     }
-
-    public String getLogradouro() {
-        return logradouro;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public String getComplemento() {
-        return complemento;
-    }
-
-    public String getBairro() {
-        return bairro;
-    }
-
-    public String getCidade() {
-        return cidade;
+    public String enderecoCompleto(){
+        return this.logradouro+", "+this.numero+" "+this.complemento+", Bairro "+this.bairro+", "
+                +this.cidade+", "+this.estado.getDescricao();
     }
 
     public UnidadeFederativa getEstado() {

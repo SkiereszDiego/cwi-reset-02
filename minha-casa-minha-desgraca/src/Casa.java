@@ -10,7 +10,8 @@ public class Casa extends Imovel{
     @Override
     public String apresentacao() {
 
-        String possuiPatio = (patio) ? "com":"sem";
-        return ("[CASA] "+possuiPatio+" pátio, "+ super.apresentacao());
+        String possuiPatio = (patio) ? "possui":"não possui";
+        return ("A Casa "+possuiPatio+" pátio, "+"\nLocalizada no endereço: "+
+                this.getEndereco().enderecoCompleto());
     }
 }
