@@ -1,8 +1,7 @@
-package com.company.domain;
+package com.company.heranca;
 
 
-import com.company.heranca.Pessoa;
-import com.company.enums.Genero;
+import com.company.enumerador.Genero;
 
 public class Ator extends Pessoa {
     private int quantidadeOscarsVencidos;

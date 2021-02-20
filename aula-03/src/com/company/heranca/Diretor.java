@@ -1,7 +1,6 @@
-package com.company.domain;
+package com.company.heranca;
 
-import com.company.heranca.Pessoa;
-import com.company.enums.Genero;
+import com.company.enumerador.Genero;
 
 public class Diretor extends Pessoa {
 
@@ -11,5 +10,4 @@ public class Diretor extends Pessoa {
         super(nome, idade, genero);
         this.quantidadeFilmesDirigidos = quantidadeFilmesDirigidos;
     }
-
 }
