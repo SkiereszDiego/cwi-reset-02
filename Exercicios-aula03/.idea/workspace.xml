@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e00226-5f31-472c-b6cf-8488937a138d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Ator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Ator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Diretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula_2/exercicios-aula-2/src/exercicio/um/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
