@@ -11,7 +11,10 @@ public class Diretor extends Pessoa {
 
     }
 
-
+    public void imprimeDados() {
+        super.imprimeDados();
+        System.out.println("Quantidade de filmes dirigidos: " + this.filmesDirigidos);
+    }
 
 
 }

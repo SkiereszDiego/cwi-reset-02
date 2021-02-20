@@ -1,5 +1,6 @@
 package exercicio.um;
 
+import java.util.List;
 
 public class Filme {
 
@@ -10,6 +11,8 @@ public class Filme {
     private Integer avaliacao;
     //Filme possui um diretor. A classe filme esta ligada a um diretor
     private Diretor diretor;
+    private List<Pessoa> elenco;
+
 
 
     public Filme(String nome, String descricao, Integer duracao, Integer ano, Integer avaliacao, Diretor diretor) {
@@ -20,6 +23,8 @@ public class Filme {
         this.duracao = duracao;
         this.ano = ano;
         this.diretor = diretor;
+        this.elenco = elenco;
+
     }
 
     public void reproduzir() {
@@ -42,6 +47,14 @@ public class Filme {
             this.avaliacao = 1;
         } else if ("Clube da luta".equals(nome)) {
             this.avaliacao = 5;
+        }
+    }
+
+    public void creditos() {
+        System.out.println(("---------------" + this.nome + "---------------" ));
+        System.out.println("Elenco: ");
+        for (Pessoa pessoa : elenco) {
+            pessoa.imprimeDados();
         }
     }
 
