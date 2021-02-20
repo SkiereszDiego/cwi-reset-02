@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5404413-6527-403f-b321-fc48309e4e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/dominio/Editora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/exceptions/EditoraException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AplicacaoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AplicacaoTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/domain/Ator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/heranca/Ator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/domain/Diretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/heranca/Diretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/domain/Editora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/domain/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dominio/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/enums/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/enumerador/Genero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/heranca/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/heranca/Pessoa.java" afterDir="false" />
-    </list>
+    <list default="true" id="f5404413-6527-403f-b321-fc48309e4e1f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
