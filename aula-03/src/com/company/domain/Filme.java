@@ -1,4 +1,4 @@
-package com.company;
+package com.company.domain;
 
 public class Filme {
 
@@ -28,7 +28,7 @@ public class Filme {
 
     private void defineAvaliacao(Integer avaliacao) {
         if (avaliacao < 1 || avaliacao > 5) {
-            this.avaliacao = 3;
+            throw new IllegalArgumentException("A avaliação precisa ser entre 1 e 5.");
         } else {
             this.avaliacao = avaliacao;
         }

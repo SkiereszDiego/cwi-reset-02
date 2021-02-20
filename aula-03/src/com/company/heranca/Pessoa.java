@@ -1,4 +1,6 @@
-package com.company;
+package com.company.heranca;
+
+import com.company.enums.Genero;
 
 public class Pessoa {
 
