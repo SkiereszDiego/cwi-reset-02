@@ -14,6 +14,7 @@ public final class Data {
      *
      * Como o próprio nome diz, a data deve ser obtida para uso numa transação (na criação de uma transação).
      */
+
     public static LocalDate getDataTransacao() {
         data = data.plusDays(5);
         return data;

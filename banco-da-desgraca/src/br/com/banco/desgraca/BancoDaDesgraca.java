@@ -1,49 +1,53 @@
 package br.com.banco.desgraca;
 
-import br.com.banco.desgraca.dominio.enumerador.InstituicaoBancaria;
-import br.com.banco.desgraca.dominio.conta.ContaBancaria;
-import br.com.banco.desgraca.dominio.conta.ContaCorrente;
-import br.com.banco.desgraca.dominio.conta.ContaDigital;
-import br.com.banco.desgraca.dominio.conta.ContaPoupanca;
+import br.com.banco.desgraca.domain.InstituicaoBancaria;
+import br.com.banco.desgraca.domain.conta.ContaCorrente;
+import br.com.banco.desgraca.domain.conta.ContaDigital;
+import br.com.banco.desgraca.domain.conta.ContaPoupanca;
 
+import java.text.DecimalFormat;
 import java.time.LocalDate;
+import java.util.Locale;
 
 public class BancoDaDesgraca {
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws Exception {
 
-        LocalDate incio = LocalDate.of(2020, 5, 10);
-        LocalDate fim = LocalDate.of(2020, 5, 17);
+        Locale brasil = new Locale( "pt", "BR" );
+        /*
+        ContaCorrente contaCorrenteBradesco = new ContaCorrente(7777, InstituicaoBancaria.BRADESCO);
 
-        ContaBancaria teste1 = new ContaDigital(102, InstituicaoBancaria.BRADESCO);
-        ContaBancaria teste2 = new ContaCorrente(304, InstituicaoBancaria.NUBANK);
-        ContaBancaria teste3 = new ContaPoupanca(506, InstituicaoBancaria.BANCO_DO_BRASIL);
-        ContaBancaria teste4 = new ContaPoupanca(708, InstituicaoBancaria.CAIXA);
-        ContaBancaria teste5 = new ContaDigital(910, InstituicaoBancaria.ITAU);
+        ContaPoupanca conta = new ContaPoupanca(123, contaCorrenteBradesco);
 
-        teste1.depositar(400.0);
-        teste2.depositar(150.0);
-        teste3.depositar(200.0);
-        teste4.depositar(400.0);
-        teste5.depositar(300.0);
-        teste1.sacar(50.0);
-        teste2.sacar(100.0);
-        teste3.sacar(30.0);
-        teste4.sacar(55.0);
-        teste5.sacar(20.0);
+        ContaPoupanca conta2 = new ContaPoupanca(456,444, InstituicaoBancaria.BANCO_DO_BRASIL);
 
-        teste3.transferir(80.0, teste1);
+        ContaCorrente contaCorrenteItau = new ContaCorrente(555, InstituicaoBancaria.ITAU);
+        ContaDigital contaDigitalItau = new ContaDigital(556, contaCorrenteItau);
 
-        teste2.transferir(30.0, teste2);
-
-        teste1.transferir(40.0, teste3);
+        //ContaDigital testeBradesco = new ContaDigital(149, contaCorrenteBradesco);
 
 
-        System.out.println("teste1 " + teste1.consultarSaldo());
-        System.out.println("teste2 " + teste2.consultarSaldo());
-        System.out.println("teste3 " + teste3.consultarSaldo());
-        System.out.println("teste4 " + teste3.consultarSaldo());
-        System.out.println("teste5 " + teste3.consultarSaldo());
+        conta.depositar(100.00);
+        conta.sacar(50.00);
+        conta.depositar(1000.00);
+        conta.transferir(250.00, conta2);
+        conta.transferir(500.00, contaCorrenteBradesco);
+        contaCorrenteBradesco.sacar(50.00);
+        contaCorrenteBradesco.transferir(400.00, contaDigitalItau);
+        contaDigitalItau.transferir(100.00, conta2);
+
+        LocalDate data1 = null; //LocalDate.of(2020, 7, 1);
+        LocalDate data2 = LocalDate.of(2020, 9, 7);
+
+        conta.exibirExtrato(data1, data2);
+        conta2.exibirExtrato(data1, data2);
+        contaCorrenteBradesco.exibirExtrato(data1, data2);
+        contaCorrenteItau.exibirExtrato(data1,data2);
+        contaDigitalItau.exibirExtrato(data1,data2);
+
+        System.out.println(DecimalFormat.getCurrencyInstance(brasil).format(conta.consultarSaldo()));
+
+         */
 
     }
 
